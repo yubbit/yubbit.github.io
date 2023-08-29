@@ -55,6 +55,8 @@ menu:
     url:               /posts/notes/
   - title:             Bookmarks
     url:               /posts/bookmarks/
+  - title:             About
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
