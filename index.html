@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>yubbit.github.io | WebXR Test</title>
+    <title>Unity WebGL Player | WebXRPlayground</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -20,20 +20,23 @@
         </div>
       </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
+        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
+        <div id="unity-build-title">WebXRPlayground</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebXR-URP.loader.js";
+      var loaderUrl = buildUrl + "/WebXR-Leap.loader.js";
       var config = {
-        dataUrl: buildUrl + "/1582f2b72ae11446d32293be55bb45e7.data.unityweb",
-        frameworkUrl: buildUrl + "/f5ddbed0030bacab884bbfac6e4f3692.js.unityweb",
-        codeUrl: buildUrl + "/5b264ab0e11ffd367b18f8637a559904.wasm.unityweb",
+        dataUrl: buildUrl + "/WebXR-Leap.data.unityweb",
+        frameworkUrl: buildUrl + "/WebXR-Leap.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebXR-Leap.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "WebXR-URP",
+        productName: "WebXRPlayground",
         productVersion: "0.1.0",
       };
 
