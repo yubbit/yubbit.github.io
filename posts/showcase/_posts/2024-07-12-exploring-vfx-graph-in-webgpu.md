@@ -52,3 +52,7 @@ Then just select it in the `Project Settings/Player` settings window:
 Unfortunately, it doesn't seem like WebXR in WebGPU is supported yet, so
 this can't be used in XR applications. In those cases, it'd still be
 preferable to run the app natively with the Vulkan graphics API.
+
+*Added 2024-07-15:* Unfortunately as of `Unity 6000.0.9f1` it doesn't seem
+like rendering particle strips is supported yet either. There may also be
+some problems with running GPU events nested more than two deep.
