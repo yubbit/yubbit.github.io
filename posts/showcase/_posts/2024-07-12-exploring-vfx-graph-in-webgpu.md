@@ -6,8 +6,10 @@ hide_last_modified: true
 excerpt_separator: <!--more-->
 ---
 
-This is a simple demo that shows Unity running VFX Graph in-browser with its
-experimental WebGPU renderer.
+This is a simple feature demo that shows Unity running VFX Graph in-browser 
+with its experimental WebGPU renderer.
+
+<!--more-->
 
 <script async src="/assets/2024-07-12-showcase/script.js" charset="utf-8"></script>
 <link rel="stylesheet" href="/assets/2024-07-12-showcase/TemplateData/style.css">
@@ -27,8 +29,6 @@ experimental WebGPU renderer.
     </div>
 </div>
 <br>
-
-<!--more-->
 
 Previously, to get a Unity game running on canvas, you'd need to use the WebGL
 graphics API which didn't support compute shaders, which VFX Graph needs to
