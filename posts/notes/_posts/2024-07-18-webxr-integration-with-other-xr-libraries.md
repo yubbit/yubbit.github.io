@@ -38,7 +38,7 @@ and the [Ultraleap Unity Plugin](https://docs.ultraleap.com/xr-and-tabletop/xr/u
 which both come with their own set of samples which are generally more stable
 than this.
 
-Getting this to work was really finnicky and I'm having some trouble
+Getting this to work was really finicky and I'm having some trouble
 reproducing the initial environment, but having this as a base project could
 serve as a template for other things I'd like to do in the future.
 
