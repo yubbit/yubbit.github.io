@@ -6,7 +6,7 @@ hide_last_modified: true
 excerpt_separator: <!--more-->
 ---
 
-Since making my Git server accessible externally, I wanted to set upmy server
+Since making my Git server accessible externally, I wanted to set up my server
 in such a way that I could set up multiple web services on the same domain. As 
 an initial goal, I decided to run a file server alongside my Git serve. To
 do this, I decided to set up as reverse proxy using nginx.
