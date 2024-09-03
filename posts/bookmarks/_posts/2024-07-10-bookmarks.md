@@ -18,10 +18,12 @@ A compilation of reference sites.
 | Link | Description |
 |:----:|:-----------:|
 | [WebXR Export](https://github.com/De-Panther/unity-webxr-export) | A Unity package for creating WebXR apps, which run on the browser on phone or on headset |
+| [Ultraleap Tracking](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/plugin/features/physical-hands.html) | Ultraleap's documentation on physical hand tracking. Also happens to work in WebXR |
 | [Using Git for Unity Projects](https://hextantstudios.com/unity-using-git/)| A guide to configuring a Unity project for Git. Provides a sample `.gitignore` and `gitattributes`, and sets up UnityYAMLMerge as the difftool for this project |
 | [Unity Style Guide](https://github.com/justinwasilenko/Unity-Style-Guide)| A good baseline for setting up naming conventions and directory structures for Unity projects |
 | [Gaffer On Games](https://gafferongames.com/)| Very detailed reading materials for networking for videogames |
 | [Catlike Coding](https://catlikecoding.com/unity/tutorials/) | Unity tutorials covering things like custom render pipelines, compute shaders, the job system, and other cool and nifty things |
+| [Figma UI Image](https://github.com/Volorf/figma-ui-image) | A utility to pull UI designs from Figma into Unity |
 {:.stretch-table}
 
 ## Shaders and Graphics
@@ -30,6 +32,9 @@ A compilation of reference sites.
 |:----:|:-----------:|
 | [Unity Shaders Bible](https://www.jettelly.com/store/books/the-unity-shaders-bible/) | A very detailed resource and cookbook for Unity shaders. Includes cool effects such as [this](https://www.reddit.com/r/Unity3D/comments/185pqtb/heres_a_stepbystep_tutorial_on_these_3d_bubbles/) |
 | [Unity5 Effects](https://github.com/i-saint/Unity5Effects)| Sample HLSL shaders for Unity 5. Largely outdated, but good for idea generation |
+| [Physically Based](https://physicallybased.info/) | A database of real world materials and their corresponding material values in a PBR shader |
+| [Reworked Wind System](https://x.com/SzwajkaKacper/status/1752107924934074682) | A post on Twitter discussing wind systems and foliage |
+| [Flat Planets](https://emildziewanowski.com/flat-planets/) | A post discussing rendering planets efficiently |
 | [Genshin Impact Character Shader Breakdown](https://www.artstation.com/artwork/wJZ4Gg) | A shader replicating the Genshin Impact toon shaders in URP |
 | [Genshin Impact Character Models](https://docs.google.com/spreadsheets/d/1lrE5EGtuDsrwRJNSHIEN9hsGggxzLHmDV5rwuHkmndQ/edit?gid=0#gid=0) | Links to the official Genshin Impact character models |
 | [SplatVFX](https://github.com/keijiro/SplatVFX) | A sample project by keijiro that implements 3D Gaussian Splatting in Unity using the VFX Graph |
@@ -79,6 +84,8 @@ A compilation of reference sites.
 | Link | Description |
 |:----:|:-----------:|
 | [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A large list of free applications for self-hosting various services |
+| [no-ip](https://www.noip.com/) | A site providing Dynamic DNS services |
+| [OVHCloud](https://ca.ovh.com/manager/#/hub) | A site providing Virtual Private Server (VPS) services |
 | [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) | A convention for tagging commits |
 | [Fourier Drawing](https://pypi.org/project/fourier-drawing/)| A Python library that can generate drawings by converting sequences of points into a Fourier series. Based on [Mathologer's video](https://www.youtube.com/watch?v=qS4H6PEcCCA) |
 
