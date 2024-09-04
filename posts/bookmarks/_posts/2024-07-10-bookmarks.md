@@ -19,11 +19,15 @@ A compilation of reference sites.
 |:----:|:-----------:|
 | [WebXR Export](https://github.com/De-Panther/unity-webxr-export) | A Unity package for creating WebXR apps, which run on the browser on phone or on headset |
 | [Ultraleap Tracking](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/plugin/features/physical-hands.html) | Ultraleap's documentation on physical hand tracking. Also happens to work in WebXR |
+| [QuestDisplayAccessDemo](https://github.com/trev3d/QuestDisplayAccessDemo) | A demonstration of accessing the Quest's display output from within Unity. Contains examples using April tags |
+| [HPTK](https://github.com/jorgejgnz/HPTK) | A toolkit for implementing hand physics in Unity |
 | [Using Git for Unity Projects](https://hextantstudios.com/unity-using-git/)| A guide to configuring a Unity project for Git. Provides a sample `.gitignore` and `gitattributes`, and sets up UnityYAMLMerge as the difftool for this project |
 | [Unity Style Guide](https://github.com/justinwasilenko/Unity-Style-Guide)| A good baseline for setting up naming conventions and directory structures for Unity projects |
 | [Gaffer On Games](https://gafferongames.com/)| Very detailed reading materials for networking for videogames |
 | [Catlike Coding](https://catlikecoding.com/unity/tutorials/) | Unity tutorials covering things like custom render pipelines, compute shaders, the job system, and other cool and nifty things |
 | [Figma UI Image](https://github.com/Volorf/figma-ui-image) | A utility to pull UI designs from Figma into Unity |
+| [Promul](https://github.com/jacksonrakena/promul) | An open source relay server for Unity Netcode for GameObjects |
+| [Mirror Networking](https://github.com/MirrorNetworking/Mirror#made-with-mirror) | An open source game networking library for Unity |
 {:.stretch-table}
 
 ## Shaders and Graphics
@@ -34,9 +38,14 @@ A compilation of reference sites.
 | [Unity5 Effects](https://github.com/i-saint/Unity5Effects)| Sample HLSL shaders for Unity 5. Largely outdated, but good for idea generation |
 | [Physically Based](https://physicallybased.info/) | A database of real world materials and their corresponding material values in a PBR shader |
 | [Reworked Wind System](https://x.com/SzwajkaKacper/status/1752107924934074682) | A post on Twitter discussing wind systems and foliage |
+| [lilToon](https://lilxyzw.github.io/lilToon/index.html#/en-us/) | A toon shader for Unity |
+| [Outline Effect](https://openupm.com/packages/com.cakeslice.outline-effect/) | An outline shader for Unity |
+| [LED Screen Shader](https://openupm.com/packages/com.llcheesell.led_screen_shader/) | A shader that simulates an LED screen |
 | [Flat Planets](https://emildziewanowski.com/flat-planets/) | A post discussing rendering planets efficiently |
 | [Genshin Impact Character Shader Breakdown](https://www.artstation.com/artwork/wJZ4Gg) | A shader replicating the Genshin Impact toon shaders in URP |
 | [Genshin Impact Character Models](https://docs.google.com/spreadsheets/d/1lrE5EGtuDsrwRJNSHIEN9hsGggxzLHmDV5rwuHkmndQ/edit?gid=0#gid=0) | Links to the official Genshin Impact character models |
+| [rileyb3d](https://x.com/rileyb3d/status/1823936040282788151) | Free 3D models |
+| [Kenney Particle Pack](https://www.kenney.nl/assets/particle-pack) | A pay-what-you-want pack for assets for particles |
 | [SplatVFX](https://github.com/keijiro/SplatVFX) | A sample project by keijiro that implements 3D Gaussian Splatting in Unity using the VFX Graph |
 {:.stretch-table}
 
@@ -49,6 +58,9 @@ A compilation of reference sites.
 | [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) | A technique for generating a 3D representation of a scene from images by essentially using a point cloud of Gaussians. Memory intensive, but incredible results |
 | [Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting) | An explainer for Guassian Splatting |
 | [Neural Radiance Fields NeRF in 100 lines of PyTorch code](https://www.youtube.com/watch?v=Q1zqf5tfeJw) | A great video for learning how Neural Radiance Fields work |
+| [Kinect as a 3D Scanner](https://all3dp.com/2/kinect-3d-scanner-easy-beginner-tutorial/) | A guide for 3D scanning using the Kinect |
+| [Brekel](https://brekel.com/) | A set of AR/VR interaction utilities for the Kinect |
+| [KScan3D](https://kscan3d.software.informer.com/) | A tool for 3D scanning objects using the Kinect |
 {:.stretch-table}
 
 ## Web Design
@@ -68,6 +80,7 @@ A compilation of reference sites.
 | [Interactive Tools for machine learning, deep learning, and math](https://github.com/Machine-Learning-Tokyo/Interactive_Tools) | A collection of interactive visual resources to help learn concepts in machine learning, including concepts beyond the basics |
 | [Large Language Models Course](https://github.com/peremartra/Large-Language-Model-Notebooks-Course) | Learning materials for learning LLMs |
 | [Large Language Model Course](https://github.com/mlabonne/llm-course) | Another course for learning LLMs. Includes notes on quantization |
+| [Most Used Decoding Methods for Language Models](https://medium.com/nlplanet/9d44b2375612) | A discussion of decoding methods for LLMs, i.e. top-K vs beam search |
 | [Supervision](https://github.com/roboflow/supervision) | A very comprehensive set of tools for all kinds of computer vision tasks |
 | [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/segment-anything-2) | A segmentation model that essentially works like the magic wand tool but better |
 | [gpt4all](https://www.nomic.ai/gpt4all) | A simple toolkit for running LLMs locally |
@@ -87,7 +100,9 @@ A compilation of reference sites.
 | [no-ip](https://www.noip.com/) | A site providing Dynamic DNS services |
 | [OVHCloud](https://ca.ovh.com/manager/#/hub) | A site providing Virtual Private Server (VPS) services |
 | [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) | A convention for tagging commits |
+| [Migrating Git Repos with LFS Artifacts](https://josh-ops.com/posts/migrate-git-lfs-artifacts/) | A guide on migrating a repo when using LFS |
 | [Fourier Drawing](https://pypi.org/project/fourier-drawing/)| A Python library that can generate drawings by converting sequences of points into a Fourier series. Based on [Mathologer's video](https://www.youtube.com/watch?v=qS4H6PEcCCA) |
+| [The Door Problem](https://lizengland.com/blog/2014/04/the-door-problem/) | An example of every process and job title involved in implementing a game feature |
 
 {:.stretch-table}
 
@@ -106,5 +121,4 @@ A compilation of reference sites.
 |:----:|:-----------:|
 | [Irasutoya 「いらすとや」](https://www.irasutoya.com/)| Royalty-free Japanese clip art illustrations |
 | [Anime Girls Holding Programming Books GitHub](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books)| Pictures of anime girls holding programming books |
-| [Link](.)| Description |
 {:.stretch-table}
