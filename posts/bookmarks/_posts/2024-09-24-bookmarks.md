@@ -42,11 +42,14 @@ A compilation of reference sites.
 | [Outline Effect](https://openupm.com/packages/com.cakeslice.outline-effect/) | An outline shader for Unity |
 | [LED Screen Shader](https://openupm.com/packages/com.llcheesell.led_screen_shader/) | A shader that simulates an LED screen |
 | [Flat Planets](https://emildziewanowski.com/flat-planets/) | A post discussing rendering planets efficiently |
+| [Mr Zingy Free Models](https://x.com/MrZingy/status/1834234468531421576) | A tweet containing a compilation of free models, including ones from Hoyoverse and Hololive |
 | [Genshin Impact Character Shader Breakdown](https://www.artstation.com/artwork/wJZ4Gg) | A shader replicating the Genshin Impact toon shaders in URP |
 | [Genshin Impact Character Models](https://docs.google.com/spreadsheets/d/1lrE5EGtuDsrwRJNSHIEN9hsGggxzLHmDV5rwuHkmndQ/edit?gid=0#gid=0) | Links to the official Genshin Impact character models |
+| [Honkai Star Rail MMD Model List](https://www.hoyolab.com/article/18038802) | A HoyoLab post containing links to official character models from Honkai Star Rail |
 | [rileyb3d](https://x.com/rileyb3d/status/1823936040282788151) | Free 3D models |
 | [Kenney Particle Pack](https://www.kenney.nl/assets/particle-pack) | A pay-what-you-want pack for assets for particles |
 | [SplatVFX](https://github.com/keijiro/SplatVFX) | A sample project by keijiro that implements 3D Gaussian Splatting in Unity using the VFX Graph |
+| [Zenless Zone Zero VFX Portal (Fanart)](https://www.artstation.com/artwork/qJQrYL) | A recreation of the portal effect from Zenless Zone Zero |
 {:.stretch-table}
 
 ## 3D Scanning, SLAM, and Photogrammetry
