@@ -43,6 +43,12 @@ decided to explore other options.
 
 ## Distributed Authority Network Topology
 
+Unity thankfully provides a solution to getting around these problems by
+providing relay servers and a lobby system through Unity Cloud. Since for
+this toy project, I wasn't particularly concerned about anticheat, I
+decided to use a distributed authority topology, rather than a client-host
+or server hosted solution.
+
 The distributed authority topology basically implements everything that I
 talked about in the previous paragraph. It has one caveat in that sessions
 are hosted client-side, meaning things like input verification become much
@@ -71,9 +77,16 @@ hardcoded into all of its connection methods. Instead, we want to use WSS
 To fix that issue, I went with the hacky solution of modifying the package
 files directly, which is not at all best practice, but proved significantly
 easier than rewriting large sections of the Multiplayer utilities library.
-The file could be found in `Runtime/Multiplayer/Utils/MPConstants.cs`, where I
-simply set the `DTLS` constant to represent the string `wss` rather than
-`dtls`.
+The file found in `Runtime/Multiplayer/Modules/Connection/ConnectionModule.cs`
+controls the initial network configuration in any calls to `DaHandler.GetRelaySeverData`.
+Simply change the value from `MPConstants.DTLS` to the string `"wss"`.
+
+Additionally, WebGL does not allow users to use multithreaded async. One
+particular section of code does that in the Multiplayer library, when
+waiting for a join code after establishing a lobby. Check the file
+`Runtime/DistributedAuthority/ErrorMitigation/RetryPolicy.cs`, and look for
+references to `Task.Delay`, and replace these with the equivalent
+`UnityEngine.Awaitable.WaitForSecondsAsync(delayTime)`.
 
 With all that done, I was able to get a simple multiplayer demo working,
 linked [here](https://rsfor.ddns.net/files/UnityNetcodeSample/).
