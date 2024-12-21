@@ -56,6 +56,8 @@ A compilation of reference sites.
 
 | Link | Description |
 |:----:|:-----------:|
+| [nerfstudio](https://docs.nerf.studio/index.html) | An API for generating NeRFs and Gaussian Splats. Has a docker image |
+| [SuGaR](https://github.com/yubbit/SuGaR) | A tool for mesh extraction. Docker image provided by me |
 | [The Ultimate Guide to 3D Scanning](https://www.youtube.com/watch?v=U67RJG6DJ_8)| The full 3D scanning workflow for working with [RealityCapture](https://www.capturingreality.com/) |
 | [Neuralangelo](https://github.com/nvlabs/neuralangelo) | A library and its associated pipeline for generating 3D models from collections of images using Neural Surface Reconstruction. Relatively slow, but it's free, uses the GPU, and offers the most detailed baseline, particularly for more dynamic scenes |
 | [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) | A technique for generating a 3D representation of a scene from images by essentially using a point cloud of Gaussians. Memory intensive, but incredible results |
