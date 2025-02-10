@@ -58,7 +58,10 @@ A compilation of reference sites.
 |:----:|:-----------:|
 | [nerfstudio](https://docs.nerf.studio/index.html) | An API for generating NeRFs and Gaussian Splats. Has a docker image |
 | [SuGaR](https://github.com/yubbit/SuGaR) | A tool for mesh extraction. Docker image provided by me |
-| [The Ultimate Guide to 3D Scanning](https://www.youtube.com/watch?v=U67RJG6DJ_8)| The full 3D scanning workflow for working with [RealityCapture](https://www.capturingreality.com/) |
+| [The Ultimate Guide to 3D Scanning](https://www.youtube.com/watch?v=U67RJG6DJ_8) | The full 3D scanning workflow for working with [RealityCapture](https://www.capturingreality.com/) |
+| [3D Scanned Peanut - Photogrammetry Workflow Agisoft Metashape Standard](https://www.youtube.com/watch?v=YnhWla7evAs) | A video showing a 3D scanning workflow. Has some good advice on the physical setup |
+| [Merging Components using Control Points in RealityCapture](https://www.youtube.com/watch?v=JK6mTHuG-ys)| A guide on merging components in RealityCapture. Useful for if a single scan has been read as multiple components |
+| [Exporting COLMAP and Radiance Fields Transformations](https://dev.epicgames.com/community/learning/tutorials/oLaG/capturing-reality-exporting-colmap-and-radiance-fields-transformations)| A guide on exporting RealityCapture to the COLMAP format. Useful for getting more fine grained control of camera placements before using as input to Gaussian Splatting or NeRFs |
 | [Neuralangelo](https://github.com/nvlabs/neuralangelo) | A library and its associated pipeline for generating 3D models from collections of images using Neural Surface Reconstruction. Relatively slow, but it's free, uses the GPU, and offers the most detailed baseline, particularly for more dynamic scenes |
 | [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) | A technique for generating a 3D representation of a scene from images by essentially using a point cloud of Gaussians. Memory intensive, but incredible results |
 | [Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting) | An explainer for Guassian Splatting |
@@ -104,6 +107,9 @@ A compilation of reference sites.
 | [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A large list of free applications for self-hosting various services |
 | [no-ip](https://www.noip.com/) | A site providing Dynamic DNS services |
 | [OVHCloud](https://ca.ovh.com/manager/#/hub) | A site providing Virtual Private Server (VPS) services |
+| [Celery](https://github.com/celery/celery) | Celery is a task queue implementation for Python web applications used to asynchronously execute work outside the HTTP request-response cycle |
+| [Gradio](https://www.gradio.app/docs) | Gradio is a free, open-source Python library that helps users create interactive web applications for machine learning models and data science workflows |
+| [RegexOne](https://regexone.com/) | A useful tutorial and reference for regex. Also contains references for Python `re` |
 | [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) | A convention for tagging commits |
 | [Migrating Git Repos with LFS Artifacts](https://josh-ops.com/posts/migrate-git-lfs-artifacts/) | A guide on migrating a repo when using LFS |
 | [Fourier Drawing](https://pypi.org/project/fourier-drawing/)| A Python library that can generate drawings by converting sequences of points into a Fourier series. Based on [Mathologer's video](https://www.youtube.com/watch?v=qS4H6PEcCCA) |
