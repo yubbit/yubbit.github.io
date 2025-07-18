@@ -1,0 +1,21 @@
+{% if include.header == "true" %}
+<iframe id="viewer" width="100%" allow="fullscreen; xr-spatial-tracking" src="{{ include.supersplat_embed }}"></iframe>
+<script>
+    window.addEventListener('load', function() {
+        initializeV();
+        function initializeV(){
+            var vh = window.innerHeight/100;
+            var iframe = document.getElementById('viewer');
+            iframe.style.height = 75*vh+'px';
+            iframe.style.pointerEvents = 'none';
+        }
+        window.addEventListener('resize',function(){
+              initializeV();
+        });
+    });
+</script>
+{% else %}
+<iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="{{ include.supersplat_embed }}"></iframe>
+{% endif %}
+
+

@@ -1,11 +1,13 @@
 version: '3'
 services:
-  jekyll:
+  gh-pages:
     build: .
-    image: yubbit/hydejack:latest
-    command: bundle exec jekyll serve --incremental --watch --force_polling  --host 0.0.0.0
+    environment:
+    - JEKYLL_ENV=development
+    image: gh-pages
+    command: bash -c "bundle install && bundle exec jekyll serve --watch --force_polling --host 0.0.0.0 --drafts"
     volumes:
-    - .:/srv/jekyll:cached
-    - ./vendor/bundle:/usr/local/bundle:cached
+    - .:/srv/jekyll
+    - ./vendor/bundle:/usr/local/bundle
     ports:
     - 4000:4000
