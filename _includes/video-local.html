@@ -1,0 +1,9 @@
+{% if include.header == "true" %}
+<video style="width: 100%; height: 75vh; pointer-events: none; object-fit: cover;" autoplay loop muted>
+  <source src="{{ include.video }}" type="video/mp4" />
+</video>
+{% else %}
+<video autoplay loop muted>
+  <source src="{{ include.video }}" type="video/mp4" />
+</video>
+{% endif %}
