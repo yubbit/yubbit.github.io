@@ -8,6 +8,8 @@ layout: default
   {% include supersplat-embed.html supersplat_embed=page.header.supersplat_embed header="true" %}
 {% elsif page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
+{% elsif page.header.local_video %}
+  {% include video-local.html video=page.header.local_video header="true" %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
