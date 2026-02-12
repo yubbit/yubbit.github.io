@@ -1,13 +1,11 @@
-version: '3'
 services:
   gh-pages:
     build: .
     environment:
     - JEKYLL_ENV=development
     image: gh-pages
-    command: bash -c "bundle install && bundle exec jekyll serve --watch --force_polling --host 0.0.0.0 --drafts"
+    command: sh -c "jekyll serve --watch --force_polling -H 0.0.0.0 -P 4000"
     volumes:
-    - .:/srv/jekyll
-    - ./vendor/bundle:/usr/local/bundle
+    - .:/src/site
     ports:
     - 4000:4000

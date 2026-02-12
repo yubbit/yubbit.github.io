@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: Setting up nginx and migrating to Gitea
 sitemap: false
 hide_last_modified: true

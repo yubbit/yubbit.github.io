@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ site.data.details.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">{{ site.data.details.title }}</a></h1>
+							</header>
+						</div>
+
+					{% include navigation.html %}
+
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-mobile" id="sidebar">
+								<hr class="first" />
+								<section>
+									<img class="icon profile" src="/assets/about/profile-pic.jpg" alt="" />
+									<h1>Education:</h1>
+									{% for education in site.data.about.education %}
+									<p>
+										{{ education | markdownify }}
+									</p>
+									{% endfor %}
+								<hr/>
+								<section>
+									<h1>Programming Languages:</h1>
+									{% for programming_language in site.data.about.programming_languages %}
+										{{ programming_language | markdownify }}
+									{% endfor %}
+								</section>
+								<section>
+									<h1>Software Development Tools:</h1>
+									{% for tool in site.data.about.software_development_tools %}
+										{{ tool | markdownify }}
+									{% endfor %}
+								</section>
+								<section>
+									<h1>Project Management Experience:</h1>
+									{% for tool in site.data.about.project_management %}
+										{{ tool | markdownify }}
+									{% endfor %}
+								</section>
+								
+							</div>
+							<div class="col-8 col-12-mobile imp-mobile" id="content">
+								<article id="main">
+									<header>
+										<h2>{{ page.title }}</h2>
+										<p>
+											{{ page.subtitle }}
+										</p>
+									</header>
+
+									{{ content }}
+									
+								</article>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				{% include footer.html %}
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

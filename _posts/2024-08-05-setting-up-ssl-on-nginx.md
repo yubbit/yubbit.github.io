@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: Setting up SSL on nginx
 sitemap: false
 hide_last_modified: true

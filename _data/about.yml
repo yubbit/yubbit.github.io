@@ -1,0 +1,43 @@
+biography: >-
+  Rafael Formoso is a Software Engineer with experience in rapid prototyping in
+  the interactive design, robotics, and machine learning space. He holds a 
+  Master's Degree in Information Technology from the University of New South 
+  Wales, and a bachelor's degree in Applied Mathematics from the Ateneo de 
+  Manila University.
+education:
+  - |
+    **University of New South Wales (UNSW)** - Master of Information Technology, Specializing in Artificial Intelligence
+    *(Graduated with Excellence)*
+  - |
+    **Ateneo de Manila University (ADMU)** - Bachelor's Degree in Applied Mathematics, Major in Mathematical Finance
+programming_languages:
+  - "**Python** *(BeautifulSoup, Celery, Django, FastAPI, Flask, Jupyter, NLTK, NumPy, OpenCV, Optuna, Pandas, PyTorch, ROS, scikit-learn, Selenium, Transformers)*
+    , **C/C++** *(Abseil, Unreal Engine)*
+    , **C#** *(.NET, Unity)*
+    , **HTML/CSS**
+    , **SQL**
+    , **VBA**"
+software_development_tools:
+  - "**Anaconda**, 
+    **Bitbucket**, 
+    **Confluence**, 
+    **Docker**, 
+    **Git**, 
+    **Linux**, 
+    **Nginx**, 
+    **Ollama**, 
+    **Unity**, 
+    **Visual Studio Code**"
+project_management:
+  - "**Agile**, 
+    **Cross-functional communication**, 
+    **Gantt charts**, 
+    **Mentoring**, 
+    **PMBOK Methodology**, 
+    **Project coordination**, 
+    **Stakeholder management**, 
+    **Team leadership**, 
+    **Waterfall**"
+languages:
+  - English
+  - Filipino

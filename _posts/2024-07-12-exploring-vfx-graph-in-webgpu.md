@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: Exploring VFX Graph in WebGPU
 sitemap: false
 hide_last_modified: true

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: Unity Netcode for GameObjects with WebGL
 sitemap: false
 hide_last_modified: true

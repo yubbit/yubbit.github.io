@@ -1,13 +1,13 @@
 ---
+layout: post_portfolio
 title: "Geo Undulations"
-header:
-  teaser: /assets/portfolio/geo-undulations/teaser.png
-  local_video: /assets/portfolio/geo-undulations/video.mp4
-classes: wide
-excerpt: "Geographic data visualized with particles."
+teaser: /assets/portfolio/geo-undulations/teaser.png
+excerpt: Geographic data visualized with particles.
 ---
-
-Geographic data visualized with particles.
+<video autoplay loop muted playsinline style="width: 100%;" oncontextmenu="return false;">
+  <source src="/assets/portfolio/geo-undulations/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 A prototype of a particle effect I made for an immersive exhibit. This uses GIS
 data retrieved from Google and creates a voxel representation of the given

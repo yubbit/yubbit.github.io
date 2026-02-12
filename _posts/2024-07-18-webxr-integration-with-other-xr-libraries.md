@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: WebXR Integration with other XR libraries
 sitemap: false
 hide_last_modified: true

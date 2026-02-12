@@ -1,0 +1,14 @@
+<div class="wrapper style2">
+
+    {% for post in site.portfolio limit:1 %}
+    <article id="main" class="container special">
+        <p>
+            {{ post.content | truncatewords: 100 }}
+        </p>
+        <footer>
+            <a href="{{ post.url }}" class="button">Continue Reading</a>
+        </footer>
+    </article>
+    {% endfor %}
+
+</div>

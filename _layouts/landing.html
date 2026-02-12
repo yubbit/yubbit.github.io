@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ site.data.details.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<!-- Header -->
+				<div id="header">
+					
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">{{ site.data.details.title }}</a></h1>
+								<hr />
+								<p>{{ site.data.details.subtitle }}</p>
+							</header>
+						</div>
+						<iframe id="viewer" width="100%" height="100%" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; border: none; pointer-events: none;" src="{{ site.data.details.header }}"></iframe>
+					{% include navigation.html %}
+
+				</div>
+			<!-- Carousel -->
+				{% include landing_carousel.html %}
+			<!-- Main -->
+				{% include landing_feature.html %}
+			<!-- Features -->
+				{% include landing_posts.html %}
+
+				{% include footer.html %}
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

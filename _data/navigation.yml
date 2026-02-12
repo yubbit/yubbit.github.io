@@ -1,8 +1,8 @@
-# main links
-main:
-  - title: "Home"
-    url: /
-  - title: "Posts"
-    url: /posts/
-  - title: "Author"
-    url: /about/
+- name: Home
+  link: /index.html
+- name: Portfolio
+  link: /portfolio/
+- name: Posts
+  link: /posts/
+- name: About
+  link: /about.html

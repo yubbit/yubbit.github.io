@@ -1,9 +1,6 @@
 ---
-layout: posts
+layout: post_blog
 title: Setting up a self-hosted Gitlab server
-# sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 Most web-based git repositories such as Github and GitLab impose size limits on

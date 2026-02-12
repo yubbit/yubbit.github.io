@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_blog
 title: SuGaR Notes
 sitemap: false
 hide_last_modified: true
