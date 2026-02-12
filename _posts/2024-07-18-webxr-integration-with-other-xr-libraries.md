@@ -11,7 +11,7 @@ this, simply open it in the Meta Quest browser.
 
 <!--more-->
 
-<link rel="stylesheet" href="/assets/post/2024-07-18-leap-sdk-in-webxr/TemplateData/style.css">
+<link rel="stylesheet" href="/assets/posts/2024-07-18-leap-sdk-in-webxr/TemplateData/style.css">
 <div id="unity-container">
 <div id="unity-canvas-container">
 <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
@@ -30,7 +30,7 @@ this, simply open it in the Meta Quest browser.
 <div id="unity-build-title">WebXR-Leap</div>
 </div>
 </div>
-<script async src="/assets/post/2024-07-18-leap-sdk-in-webxr/script.js" charset="utf-8"></script>
+<script async src="/assets/posts/2024-07-18-leap-sdk-in-webxr/script.js" charset="utf-8"></script>
 <br>
 
 This makes use of [De-Panther's WebXR Export](https://github.com/De-Panther/unity-webxr-export)
