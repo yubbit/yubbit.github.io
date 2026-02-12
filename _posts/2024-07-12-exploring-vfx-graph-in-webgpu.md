@@ -11,7 +11,7 @@ with its experimental WebGPU renderer.
 
 <!--more-->
 
-<link rel="stylesheet" href="/assets/post/2024-07-12-showcase/TemplateData/style.css">
+<link rel="stylesheet" href="/assets/posts/2024-07-12-showcase/TemplateData/style.css">
 <div id="unity-container">
 <div id="unity-canvas-container">
 <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
@@ -29,7 +29,7 @@ with its experimental WebGPU renderer.
     <div id="unity-build-title"></div>
 </div>
 </div>
-<script async src="/assets/post/2024-07-12-showcase/script.js" charset="utf-8"></script>
+<script async src="/assets/posts/2024-07-12-showcase/script.js" charset="utf-8"></script>
 <br>
 
 Previously, to get a Unity game running on canvas, you'd need to use the WebGL
@@ -49,7 +49,7 @@ As of `Unity 6000.0.9f1`, You just need to insert the following line to the
 
 Then just select it in the `Project Settings/Player` settings window:
 
-![webgpu-setting](/assets/post/2024-07-12-showcase/webgpu-setting.png)
+![webgpu-setting](/assets/posts/2024-07-12-showcase/webgpu-setting.png)
 
 Unfortunately, it doesn't seem like WebXR in WebGPU is supported yet, so
 this can't be used in XR applications. In those cases, it'd still be
