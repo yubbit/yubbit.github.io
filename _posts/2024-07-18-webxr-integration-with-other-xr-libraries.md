@@ -1,15 +1,10 @@
 ---
 layout: post_blog
 title: WebXR Integration with other XR libraries
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 This is a quick feature demo showing hand physics working in WebXR. To run
 this, simply open it in the Meta Quest browser.
-
-<!--more-->
 
 <link rel="stylesheet" href="/assets/posts/2024-07-18-leap-sdk-in-webxr/TemplateData/style.css">
 <div id="unity-container">

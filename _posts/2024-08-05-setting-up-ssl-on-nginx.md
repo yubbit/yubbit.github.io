@@ -1,16 +1,11 @@
 ---
 layout: post_blog
 title: Setting up SSL on nginx
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 After setting up my Gitea server and my file server, I wanted a quick way to
 test any WebGPU or WebXR apps that I've made. Neither of these will run on
 website that don't support SSL, so I decided to set that up real quick.
-
-<!--more-->
 
 ## Setting up `certbot`
 

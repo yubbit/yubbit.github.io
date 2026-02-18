@@ -1,15 +1,10 @@
 ---
 layout: post_blog
 title: Exploring VFX Graph in WebGPU
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 This is a simple feature demo that shows Unity running VFX Graph in-browser 
 with its experimental WebGPU renderer.
-
-<!--more-->
 
 <link rel="stylesheet" href="/assets/posts/2024-07-12-showcase/TemplateData/style.css">
 <div id="unity-container">
@@ -36,8 +31,8 @@ Previously, to get a Unity game running on canvas, you'd need to use the WebGL
 graphics API which didn't support compute shaders, which VFX Graph needs to
 run. However, WebGPU *does* support compute shaders. 
 
-As of `Unity 6000.0.9f1`, You just need to insert the following line to the 
-`ProjectSettings/ProjectSettings.asset` file:
+As of `Unity 6000.0.9f1`, you could enable WebGPU support by inserting the 
+following line into the `ProjectSettings/ProjectSettings.asset` file:
 
 ```
   ...
@@ -47,7 +42,7 @@ As of `Unity 6000.0.9f1`, You just need to insert the following line to the
   ...
 ```
 
-Then just select it in the `Project Settings/Player` settings window:
+Then just activate it in `Project Settings/Player`:
 
 ![webgpu-setting](/assets/posts/2024-07-12-showcase/webgpu-setting.png)
 

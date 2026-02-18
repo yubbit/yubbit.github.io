@@ -1,14 +1,9 @@
 ---
 layout: post_blog
 title: Bookmarks
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 A compilation of reference sites.
-
-<!--more-->
 
 * 
 {:toc}

@@ -1,13 +1,6 @@
 ---
 layout: post_blog
 title: SuGaR Notes
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
-# header:
-#     overlay_color: rgba(255, 0, 0, 0.5)
-#   teaser: assets/images/bio-photo.jpg
-#   overlay_image: assets/images/bio-photo.jpg
 ---
 
 I was looking into ways to convert some videos I took during my travels to 3D
@@ -15,7 +8,7 @@ scenes, and had previously heard of two methods: Gaussian splatting, and a
 library by Nvidia called Neuralangelo. For Gaussian splatting, I'd read that
 a library called [nerfstudio](https://docs.nerf.studio/index.html) had its own
 implementation of it, but I also wanted to see if I could find a method that
-generated a mesh that I could view in virtual reality. <!--more--> 
+generated a mesh that I could view in virtual reality.
 
 I tried Neuralangelo, and I found the results lacking, so I looked it up on
 Google Scholar, and searched for recent papers that cited it and sorted them
