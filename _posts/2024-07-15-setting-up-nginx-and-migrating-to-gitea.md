@@ -1,9 +1,6 @@
 ---
 layout: post_blog
 title: Setting up nginx and migrating to Gitea
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 Since making my Git server accessible externally, I wanted to set up my server
@@ -15,8 +12,6 @@ Another thing I wanted to do was to migrate my Git repositories from GitLab to
 Gitea, since GitLab seemed to suffer from memory leaks that I couldn't find an
 explanation for, at least on the NVIDIA Jetson. Gitea is far lighter weight
 and seemed to be able to do everything I need it to.
-
-<!--more-->
 
 ## Setting up Gitea
 

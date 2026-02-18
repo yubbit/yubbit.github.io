@@ -1,9 +1,6 @@
 ---
 layout: post_blog
 title: Unity Netcode for GameObjects with WebGL
-sitemap: false
-hide_last_modified: true
-excerpt_separator: <!--more-->
 ---
 
 While playing around with WebXR, I thought it would be cool if you could have
@@ -11,7 +8,7 @@ multiple people viewing the same space at the same time. I figured that there
 would be two ways of doing that.
 
 The first would be to have each device somehow able to locate and track other
-devices using its own camera in its own local network. <!--more-->  Unfortunately, that
+devices using its own camera in its own local network. Unfortunately, that
 makes very big assumptions about the type and power of devices that would be
 used to run the app, which would defeat the purpose of having a 
 one-size-fits-all solution with WebXR.
