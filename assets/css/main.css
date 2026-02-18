@@ -2685,6 +2685,7 @@ input, select, textarea {
 				left: -1em;
 				top: 0;
 				width: auto;
+				max-width: none;
 				margin-right: -2em;
 				margin-bottom: 3em;
 			}
