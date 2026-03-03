@@ -48,7 +48,6 @@ Pressing `Fn + LCtrl` cycles the keyboard between three different states. There 
 
 ### *Additional Notes by vinzpaoloo*
 
-<small>
 When I am connected via cable I get a different result for the F? keys. I am getting media control, brightness and stuff when I am press the Fn+F? key combination. This only happen on cable connection.  
   
 | Function | Combination |
@@ -61,4 +60,3 @@ When I am connected via cable I get a different result for the F? keys. I am get
 | Mute/Unmute sound | Fn + F0 |
 | Decrease Volume | Fn + F11 |
 | Increase Volume | Fn + F12 |
-</small>
