@@ -1,4 +1,7 @@
-# Gaussian Splats in Unity: A Deep Dive into VFX Graph Implementation
+---
+layout: post_blog
+title: Gaussian Splats in Unity: A Deep Dive into VFX Graph Implementation
+---
 
 I've been playing around with Gaussian splatting quite a lot, and recently wanted to look under the hood to see how the rendering process actually works.
 
